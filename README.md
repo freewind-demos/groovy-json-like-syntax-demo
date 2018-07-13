@@ -1,10 +1,6 @@
-Groovy Hello World Demo
+Groovy Json Like Syntax
 =======================
 
-A very simple groovy project with gradle.
+Understand the Json-Like syntax in Groovy, it makes DSL easy.
 
-Run tests:
-
-```
-./gradlew test
-```
+See `Hello.groovy`.

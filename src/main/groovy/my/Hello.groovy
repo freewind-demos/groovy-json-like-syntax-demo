@@ -7,6 +7,11 @@ class User {
     def play(String sport) {
         println("I like playing $sport")
     }
+
+    @Override
+    Object invokeMethod(String name, Object args) {
+        println("I can't understand: $name ($args)")
+    }
 }
 
 def hello(Closure config) {
@@ -22,4 +27,5 @@ hello {
     setName "Groovy"
     words = "you are groovy"
     play "Football"
+    wash "face"
 }
